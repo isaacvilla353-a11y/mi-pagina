@@ -1,41 +1,59 @@
-body {background-image:url(../fondo.jpg);}
-.caja1{font-size: 30px;}
-p{color: blue;}
-div{
-margin:10px ;}
-body{color: black;}
-.caja1{background:#ccc ;}
-a:hover{
-    text-decoration:underline ;
-    background:black;
-}
-.caja1 h1{
-    text-align: center;
-}
-h3{
-    background: #ccc;}
-    
-.caja3 h5{
-    text-align: center;
-}
-.caja4 h5{
-    background: #ccc;
-}
-.caja5 h5{
-    background: #ccc;
+/* Fondo de la página */
+body {
+    background-image: url("../fondo.jpg"); /* fondo.jpg al mismo nivel que index.html */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
 }
 
-.caja6 h5{
+/* Caja del título principal */
+.caja1 {
+    font-size: 30px;
     background: #ccc;
-}
-.caja7 h5{
-    background: #ccc;
-}
-.caja8 h5{
-    background:#ccc ;
-}
-.caja2 p{
     text-align: center;
+    padding: 20px;
+}
+
+/* Párrafos generales */
+.caja2 p {
+    color: black;
+    background: #eee;
+}
+
+/* Separación de las cajas de imágenes */
+div {
+    margin: 10px;
+}
+
+/* Hover en enlaces */
+a:hover {
+    text-decoration: underline;
+    background: black;
+    color: white;
+    padding: 2px 5px;
+}
+
+/* Encabezados H3 */
+h3 {
+    background: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Centrar imágenes dentro de las cajas */
+.caja3, .caja4, .caja5, .caja6, .caja7, .caja8 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Separar imágenes dentro de cada caja */
+.caja3 img, .caja4 img, .caja5 img, .caja6 img, .caja7 img, .caja8 img {
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
 }
 
 
