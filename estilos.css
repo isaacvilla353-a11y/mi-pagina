@@ -1,0 +1,44 @@
+body {background-image:url(../fondo.jpg);}
+.caja1{font-size: 30px;}
+p{color: blue;}
+div{
+margin:10px ;}
+body{color: black;}
+.caja1{background:#ccc ;}
+a:hover{
+    text-decoration:underline ;
+    background:black;
+}
+.caja1 h1{
+    text-align: center;
+}
+h3{
+    background: #ccc;}
+    
+.caja3 h5{
+    text-align: center;
+}
+.caja4 h5{
+    background: #ccc;
+}
+.caja5 h5{
+    background: #ccc;
+}
+
+.caja6 h5{
+    background: #ccc;
+}
+.caja7 h5{
+    background: #ccc;
+}
+.caja8 h5{
+    background:#ccc ;
+}
+.caja2 p{
+    text-align: center;
+}
+
+
+
+
+    
